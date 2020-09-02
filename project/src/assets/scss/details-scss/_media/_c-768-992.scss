@@ -1,0 +1,50 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+  :root {
+    --fontSizeD2RentPrice: 11.7px;
+    --fontSizeMain: 13.3px;
+    --fontSizeSelected: 13.8px;
+    --fontSizeTextHigh: 14.7px;
+    --fontSizeButtons: 16.5px;
+    --fontSizeHeadlineLow: 19.3px;
+    --fontSizeHeaderLogo: 24.1px;
+    --fontSizeHeadline: 33.1px;
+  }
+
+  //-----------------------------------------------------
+  //HEADER:
+  .header {
+    grid-column: 1 / 13;
+  }
+
+  .header > a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header .headerBlock,
+  .header .phone {
+    display: none;
+  }
+
+  //-----------------------------------------------------
+  // BODY:
+
+  // 1.2
+  .ourAutopark_grid .carsRent_grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+  }
+
+  .ourAutopark_grid .navigation {
+    grid-column: 2 / 12;
+  }
+
+  // 1.6
+  .contacts_grid .contactsContent_grid {
+    grid-column: 2 / 12;
+    grid-column-gap: 3em;
+  }
+
+  .contacts_grid .contactsText {
+    margin-left: 0;
+  }
+}

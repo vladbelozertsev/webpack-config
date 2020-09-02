@@ -1,0 +1,13 @@
+// Подключаем обычные css-файлы БЕЗ расширения (см инструкцию import SCSS)
+// https://purgecss.com/whitelisting.html#patterns
+// https://github.com/PatrickJS/starter/issues/727 - как импортировать из node_modules
+
+// При импорте в scss, css файлов возникают ошибки:
+// https://github.com/FullHuman/purgecss/issues/170
+
+/*! purgecss start ignore */
+@import "~normalize.css/normalize";
+@import "~swiper/css/swiper.min";
+/*! purgecss end ignore */
+
+// @import "~bootstrap/scss/bootstrap";

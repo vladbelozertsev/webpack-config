@@ -1,0 +1,35 @@
+.sectionG {
+  grid-column: 2 / 12;
+  width: 100%;
+  margin-bottom: 4em;
+  // .gallery-thumbs {
+  //   height: 18em;
+  // }
+}
+
+.gallery-top {
+  margin-bottom: 1em;
+  // img {
+  //   height: 65vh;
+  // }
+}
+
+.thumbsWrapper {
+  position: relative;
+  padding: 0 4em;
+  z-index: 0;
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  .swiper-slide {
+    opacity: 0.5;
+  }
+
+  .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+}

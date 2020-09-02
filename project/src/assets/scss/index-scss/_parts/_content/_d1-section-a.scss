@@ -1,0 +1,73 @@
+.sectionA {
+  align-items: flex-start;
+  background-image: url("../../../images/index-images/css-images/content/section-a-bg2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: var(--fontColorA);
+  display: flex;
+  grid-column: 1 / 13;
+  height: 75vh;
+  padding: 0 9.5%;
+  width: 100%;
+}
+
+// анимация fade-in:
+// https://gomakethings.com/how-to-a-fade-in-to-vanilla-javascript-show-and-hide-methods/
+.imgLogo {
+  width: 16.1%; //  163px
+  // height: 254px; // 43.7%;
+}
+
+.aRight {
+  flex-grow: 1;
+  margin-top: 5vh;
+
+  .aRightWrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 57.3%;
+
+    > * {
+      box-shadow: 0px 0px 0.5em 1em var(--bgARight);
+      background-color: var(--bgARight);
+      // text-shadow: 0 0 20rem var(--bgARight);
+    }
+
+    .aText1 {
+      border-radius: 2.5em;
+      font-size: var(--fontSizeAText1);
+      font-weight: bold;
+
+      .aLine {
+        background-color: var(--fontColorA);
+        height: 0.08em;
+      }
+    }
+
+    .aText2 {
+      border-radius: 2.5em;
+      font-size: var(--fontSizeAText2);
+      font-weight: 500;
+    }
+
+    .aText3 {
+      background-color: var(--bgARightBut);
+      border-radius: 2em;
+      border: 1.3px solid var(--fontColorA);
+      color: inherit;
+      cursor: pointer;
+      font-size: var(--fontSizeAText3);
+      font-style: italic;
+      margin-top: 15px;
+      padding: 0.5em 1.4em;
+      transition: linear 0.3s;
+    }
+
+    // .aText3:hover {
+    //   background-color: var(--bgAText3Hover);
+    //   box-shadow: 0px 0px 0.7em 0.5em var(--bgAText3ShadowHover);
+    //   transition: linear 0.3s;
+    // }
+  }
+}

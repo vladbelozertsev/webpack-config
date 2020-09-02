@@ -1,0 +1,28 @@
+.sectionC {
+  grid-column: 2 / 12;
+  width: 100%;
+}
+
+.scImgBlock {
+  gap: 4.5em;
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  img {
+    width: 100%;
+  }
+
+  .scImgHeader {
+    font-size: var(--fontSizeCSImgHeader);
+    font-weight: bold; // extra-bold (см _fonts)
+    line-height: 1.5em;
+    margin: 1.4em 0;
+  }
+
+  .scImgText {
+    font-size: var(--fontSizeCSImgText);
+    font-weight: 500;
+    line-height: 1.5em;
+  }
+}

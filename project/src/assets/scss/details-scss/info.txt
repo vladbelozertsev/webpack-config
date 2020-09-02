@@ -1,0 +1,9 @@
+структура данной SCSS папки была составлена в соответствии с 
+шаблоном OptimizedHTML-4 (https://github.com/agragregra/OptimizedHTML-4).
+
+См. также уроки по bootstrap grid (https://www.youtube.com/watch?v=2JMMnNOhDoc)
+
+Размеры брейкпоинтов:
+https://www.w3.org/TR/mediaqueries-4/#mq-min-max
+https://getbootstrap.com/docs/4.1/layout/overview/
+https://getbootstrap.com/docs/4.1/layout/grid/

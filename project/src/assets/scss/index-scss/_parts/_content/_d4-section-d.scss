@@ -1,0 +1,44 @@
+.sectionD {
+  display: flex;
+  grid-column: 2 / 12;
+  width: 100%;
+}
+
+.location {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .contentSectionHeader {
+    margin-bottom: 0.5em;
+  }
+
+  .distance {
+    align-items: center;
+    display: flex;
+    font-size: var(--fontSizeDDistance);
+    font-weight: 500;
+    line-height: 1.5em;
+    margin: 8rem 0;
+  }
+
+  img.nr {
+    width: 3em;
+    margin-right: 1em;
+  }
+
+  div:last-child {
+    margin: 2em 0;
+  }
+
+  .submitBtn {
+    margin-top: auto;
+  }
+}
+
+#map {
+  width: 65%;
+  height: 550px;
+  background-color: #ccc;
+}

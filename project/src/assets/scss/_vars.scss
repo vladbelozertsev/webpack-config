@@ -1,0 +1,56 @@
+:root {
+  // container
+  --fontColorMain: #373737;
+  --fontSizeBasic: 1px; // = 1rem, см: https://qna.habr.com/q/571875
+  --fontSizeMain: 16rem;
+
+  // header
+  --bgHeader: #fff;
+  --bgHeaderDiv1: #626262;
+  --bgHeaderDiv2: rgb(159, 191, 55);
+  --bgUnderline: #e8e8e8;
+  --bgUnderlineHover: #9fbf37;
+  --fontColorDiv: #fff;
+  --fontSizeHeader: 12rem;
+  --fontSizeTel: 16rem;
+  --bgColorClsDropdown: rgb(172, 172, 172);
+  --fontSizeDropdown: 16rem;
+
+  // content
+  --bgARight: rgba(0, 0, 0, 0.2);
+  --bgARightBut: rgb(160, 191, 55); // rgba(0, 0, 0, 0.35);
+  --bgAText3Hover: rgba(250, 188, 62, 0.3);
+  --bgAText3ShadowHover: rgba(250, 188, 62, 0.3);
+  --bgDividingLine: #e8e8e8;
+  --bgSwiperButton: rgb(184, 184, 184);
+  --fontColor1SubBtn: #aac64d;
+  --fontColorA: #fff;
+  --fontColorSwiperButton: #fff;
+  --fontSizeAText1: 41rem;
+  --fontSizeAText2: 20rem;
+  --fontSizeAText3: 16rem;
+  --fontSizeBottomHeader: 16rem;
+  --fontSizeCSImgHeader: 20rem;
+  --fontSizeCSImgText: 14rem;
+  --fontSizeContHeader: 41rem;
+  --fontSizeDDistance: 14rem;
+  --fontSizeFFlatInfo2: 20rem;
+  --fontSizeESlider: 16rem;
+
+  // footer
+  --bgFooterB: #1d2110;
+  --fontColorFooterA: #fff;
+  --fontColorFooterB: #fff;
+  --fontColorFooterB: #fff;
+  --fontSizeFooterANormal: 20rem;
+  --fontSizeFooterABig: 40rem;
+  --fontSizeFooterB: 12rem;
+  --fontSizeFooterBTel: 18rem;
+
+  // popup
+  --fontSizePopupYear: 14rem;
+  --fontSizePopupMonth: 12rem;
+  --fontColorPopup: rgb(145, 145, 145);
+  --bgPopupCurrent: #9fbf37;
+  --bgDot: #373737;
+}

@@ -1,0 +1,39 @@
+.sectionE {
+  grid-column: 2 / 12;
+  width: 100%;
+
+  > img {
+    width: 100%;
+  }
+
+  .contentSectionHeader {
+    margin-bottom: 1em;
+  }
+}
+
+.sliderContainerE {
+  font-size: var(--fontSizeESlider);
+  margin-bottom: 0.7em;
+  margin-top: 2.5em;
+  padding: 0 4em;
+  position: relative;
+  z-index: 0;
+
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  .swiper-button-next {
+    right: 0;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+
+    img {
+      margin-right: 0.5em;
+    }
+  }
+}

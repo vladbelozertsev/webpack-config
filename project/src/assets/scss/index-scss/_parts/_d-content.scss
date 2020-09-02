@@ -1,0 +1,72 @@
+// // Вставить имена разделов контентной части сайта:
+@import "./_content/d1-section-a";
+@import "./_content/d2-section-b";
+@import "./_content/d3-section-c";
+@import "./_content/d4-section-d";
+@import "./_content/d5-section-e";
+@import "./_content/d6-section-f";
+@import "./_content/d7-section-g";
+
+.content_grid {
+  align-items: center;
+  justify-items: center;
+}
+
+.contentSectionHeader {
+  font-size: var(--fontSizeContHeader);
+  font-weight: 800;
+  text-align: left;
+  width: 100%;
+}
+
+.dividingLine {
+  grid-column: 2 / 12;
+  width: 100%;
+  height: 5px;
+  background-color: var(--bgDividingLine);
+  margin: 3em 0;
+}
+
+.swiper-container {
+  z-index: 0;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev img,
+.swiper-button-next img {
+  // width: 50%;
+  height: 55%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: var(--bgSwiperButton);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  border-radius: 50%;
+  color: var(--fontColorSwiperButton);
+  height: 32rem;
+  width: 32rem;
+  z-index: 0;
+}
+
+.submitBtn {
+  color: var(--fontColor1SubBtn);
+  border: 2px solid var(--fontColor1SubBtn);
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  background-color: #fff;
+  cursor: pointer;
+  font-style: italic;
+  //https://stackoverflow.com/questions/49658425/flexbox-justify-self-flex-end-not-working/49658476
+}
+
+// https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to
+.anchor {
+  visibility: hidden;
+}

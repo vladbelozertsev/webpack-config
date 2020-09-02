@@ -1,0 +1,4 @@
+https://habr.com/ru/company/netcracker/blog/277433/ - выравнивание текста по вертикали
+
+https://github.com/postcss/autoprefixer/issues/1184 - решение проблемы npm Browserslist: caniuse-lite is outdated
+npx browserslist@latest --update-db

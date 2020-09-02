@@ -1,0 +1,23 @@
+.header {
+  grid-column: 1 / 13;
+  top: 0;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+
+.headerMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1.5em;
+  background-color: tomato;
+}
+
+.fixedIntro {
+  background-color: rgb(190, 190, 190);
+  grid-column: 1 / 13;
+  height: 50vh;
+  position: sticky;
+  top: 0;
+}
