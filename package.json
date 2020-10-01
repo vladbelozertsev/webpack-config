@@ -43,7 +43,7 @@
     "webpack-merge": "^4.2.2"
   },
   "scripts": {
-    "start": "set NODE_ENV=development&& webpack-dev-server --open --config ./config/webpack.dev.conf.js --hot",
+    "dev": "set NODE_ENV=development&& webpack-dev-server --open --config ./config/webpack.dev.conf.js --hot",
     "build": "set NODE_ENV=production&& webpack --config ./config/webpack.build.conf.js"
   },
   "keywords": [],
