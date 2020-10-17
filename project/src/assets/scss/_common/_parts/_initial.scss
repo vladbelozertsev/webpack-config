@@ -190,3 +190,57 @@ body.lock {
 }
 
 //-------------------------------------
+
+.btn-show {
+  cursor: pointer;
+  height: 1.6em;
+  position: relative;
+  width: 1.6em;
+  span {
+    background-color: var(--col-main);
+    display: block;
+    height: 0.1em; // !!!
+    transition: 0.4s linear;
+    width: 100%;
+    height: 2px; // em считает некорректно
+  }
+  span:nth-of-type(1) {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  span:nth-of-type(2) {
+    left: 0;
+    position: absolute;
+    top: 50%; // !!!
+  }
+  span:nth-of-type(3) {
+    top: 100%; // !!!
+    left: 0;
+    position: absolute;
+  }
+}
+
+.btn-hide {
+  justify-content: center;
+  span:nth-of-type(1) {
+    transform: rotate(45deg);
+    transition: 0.4s linear;
+    position: absolute;
+    left: 0;
+    top: calc(1.6em / 2 - 0.16em / 2); // !!!
+  }
+  span:nth-of-type(2) {
+    width: 0;
+    transition: 0.4s linear;
+  }
+  span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    transition: 0.4s linear;
+    position: absolute;
+    left: 0;
+    top: calc(1.6em / 2 - 0.16em / 2); // !!!
+  }
+}
+
+//-------------------------------------
