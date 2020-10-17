@@ -1,2 +1,11 @@
-@import "media";
-@import "style";
+//------------------------------
+// Основное
+
+@import "_parts/main";
+
+//------------------------------
+// Медиа
+@import "_media/a-maxw576";
+@import "_media/b-576-768";
+@import "_media/c-768-992";
+@import "_media/d-992-1200";
