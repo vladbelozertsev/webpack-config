@@ -1,0 +1,29 @@
+Конфигурация webpack:
+1) https://tocode.ru/courses/nastroika-webpack4/obrabotka-failov-nastroika-merge/
+2) https://www.youtube.com/watch?v=JcKRovPhGo8&list=PLkCrmfIT6LBQWN02hNj6r1daz7965GxsV
+
+Установка eslint:
+1) https://frontend-stuff.com/blog/eslint/
+2) https://www.youtube.com/watch?v=qhuFviJn-es
+3) https://eslint.org/docs/user-guide/configuring/language-options#specifying-environments
+4) https://stackoverflow.com/questions/57673026/require-and-process-is-not-defined-in-eslint-problem-with-node
+
+Установка stylelint:
+1) https://github.com/stylelint/stylelint/blob/HEAD/docs/user-guide/get-started.md
+2) https://www.youtube.com/watch?v=XbMxA70ZA6o
+3) https://stackoverflow.com/questions/47607602/how-to-add-a-tailwind-css-rule-to-css-checker
+
+Настройка hot module replacement (HMR):
+1) https://www.youtube.com/watch?v=w3pVqiq6Lq8
+2) https://webpack.js.org/guides/hot-module-replacement/
+
+Настройка purgecss:
+1) https://flaviocopes.com/tailwind-setup/
+2) https://www.npmjs.com/package/@fullhuman/postcss-purgecss
+
+#Заметки
+ошибка при сборке проекта из за MiniCssExtractPlugin.loader
+решение: https://github.com/vuejs/vue-loader/issues/1742
+
+имена классов tailwind стоит писать без использования спец сиволов - %, $, ^ и т.п.,
+т.к. данные имена будет стирать purgecss)

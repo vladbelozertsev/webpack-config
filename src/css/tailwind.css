@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  html {
+    @apply font-main;
+    color: #000;
+  }
+
+  body {
+    @apply text-sm;
+  }
+
+  /* h1 {
+    @apply font-bold;
+    font-size: 35px;
+    line-height: 1.5em;
+  }
+
+  h2 {
+    @apply font-bold;
+    font-size: 32px;
+    line-height: 1.5em;
+  }
+
+  h3 {
+    @apply font-bold;
+    font-size: 18px;
+    line-height: 1.5em;
+  } */
+}
+
+@layer components {
+  .icon {
+    @apply font-icon  text-xl;
+  }
+
+  .btn {
+  }
+
+  /* "Бургер" кнопка */
+
+  .btn-burger {
+    @apply relative cursor-pointer h-6 w-6 inline-block;
+  }
+
+  .btn-burger span {
+    @apply block h-2px duration-300 ease-linear w-full absolute;
+    background-color: #fff;
+  }
+
+  .btn-burger span:nth-of-type(1) {
+    @apply left-0 top-0;
+  }
+
+  .btn-burger span:nth-of-type(2) {
+    @apply left-0 top-1/2;
+  }
+
+  .btn-burger span:nth-of-type(3) {
+    @apply left-0 bottom-0;
+  }
+
+  .btn-burger.btn-burger_close {
+    @apply justify-center;
+  }
+
+  .btn-burger.btn-burger_close span:nth-of-type(1) {
+    @apply left-0 absolute duration-300 ease-linear;
+    top: calc(24px / 2 - 2px / 2); /* 24px = 6rem = .btn-burger height; 2px = .btn-burger span height */
+    transform: rotate(45deg);
+  }
+
+  .btn-burger.btn-burger_close span:nth-of-type(2) {
+    @apply duration-300 ease-linear w-0;
+  }
+
+  .btn-burger.btn-burger_close span:nth-of-type(3) {
+    @apply left-0 absolute duration-300 ease-linear;
+    top: calc(24px / 2 - 2px / 2); /* 24px = 6rem = .btn-burger height; 2px = .btn-burger span height */
+    transform: rotate(-45deg);
+  }
+}
+
+/*----------------------------------------------------------*/
+/* Стили для отдельных элементов */
